@@ -1,0 +1,38 @@
+.calculator{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    height:15vw;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+
+.values{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form > .input-row {
+    padding:1rem;
+}
+
+.input-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.result{
+    width: 15vw;
+    background-color: aqua;
+}
+
+.calc{
+    align-self: center;
+}
+
+.message{
+    margin: auto;
+}
