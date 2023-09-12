@@ -1,10 +1,17 @@
 .calculator{
     display: flex;
     flex-direction: row;
-    width: 30vw;
+    width: 35vw;
     height:15vw;
     margin: auto;
+    background-color:#F6F7F2;
+    align-items: center;
+    justify-content: space-around;
+    color:#061735;
+    border-radius: 10px;
+    padding: 1rem;
 }
+
 h3{
     text-align: center;
 }
@@ -13,6 +20,7 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 13vw;
 }
 
 form > .input-row {
@@ -25,12 +33,23 @@ form > .input-row {
 }
 
 .result{
-    width: 15vw;
-    background-color: aqua;
+    width: 13vw;
+    height:90%;
+    background-color: #061735;
+    color:#F2F7F2;
+    display: flex;
+    border-radius: 10px;
 }
 
 .calc{
     align-self: center;
+    cursor: pointer;
+    height:40px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(196, 33, 42);
+    padding:0px .5rem;
+    border: none rgb(135, 20, 21);
+    border-radius: .25rem
 }
 
 .message{
